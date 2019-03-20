@@ -22,7 +22,7 @@ classdef kkbTest < matlab.unittest.TestCase
            % C = [0, 1; 1, 0], because we want 0*1*1+1*x*1+1*1*y+0*x*y
            C = [0, 1; 1, 0];
            CFunction = kkb(x, y, F);
-           testCase.verifyEqual(C, CFunction);
+           testCase.verifyEqual(C(:), CFunction);
         end
     end
 end
