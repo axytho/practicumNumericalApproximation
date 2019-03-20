@@ -24,6 +24,10 @@ classdef kkbTest < matlab.unittest.TestCase
            CFunction = kkb(x, y, F);
            testCase.verifyEqual(C(:), CFunction);
         end
+        
+        function testQuestion2(testCase)
+            
+        end
     end
 end
 
