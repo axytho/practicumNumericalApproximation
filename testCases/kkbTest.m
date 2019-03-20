@@ -1,4 +1,4 @@
-classdef kkbTest < matlab.unit.TestCase
+classdef kkbTest < matlab.unittest.TestCase
     %UNTITLED2 Summary of this class goes here
     %   Detailed explanation goes here
     
@@ -18,12 +18,10 @@ classdef kkbTest < matlab.unit.TestCase
            x = [0, 1];
            y = [0, 1];
            F = testCase.functionBasic(x, y');
-           m = size(x, 2);
-           n = size(y, 2);
            % Our function is very simple, and the best result would be
            % C = [0, 1; 1, 0], because we want 0*1*1+1*x*1+1*1*y+0*x*y
            C = [0, 1; 1, 0];
-           CFunction = kkb(x, y, F, m, n);
+           CFunction = kkb(x, y, F);
            testCase.verifyEqual(C, CFunction);
         end
     end

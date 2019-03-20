@@ -1,8 +1,9 @@
-function C = kkb(x, y, F)
+function kkb(x, y, F, m, n)
 % kkb: calculates C = B^(+) * F * (A^(+))'
 % PREAMBLE: ^(+) is simply written as \ in MATLAB (psuedo inverse)
-% INPUT: x vector with size(x, 2) = m and y vector with size(x,2)
+% INPUT: x vector with dim m and y vector with dim n
 % VALUES INSIDE: A/B: takes x/y values as column vectors and raises them
 % to the power of the column where they are
-C = kron(fliplr(vander(x)),fliplr(vander(y)))\F(:)';
+A = 
+kron(A,B)\F(:);
 end
