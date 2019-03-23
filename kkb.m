@@ -1,4 +1,4 @@
-function C = kkb(x, y, F)
+function C = kkb(x, y, F, m, n)
 % kkb: calculates C = B^(+) * F * (A^(+))'
 % PREAMBLE: ^(+) is simply written as \ in MATLAB (psuedo inverse)
 % INPUT: x vector with size(x, 2) = m and y vector with size(x,2)
@@ -7,5 +7,7 @@ function C = kkb(x, y, F)
 % matrix) MATLAB flips these for some reason which is why we use fliplr
 % The magic then happens because kron(A, B)*F(:) = B*F*A' but we want
 % B and A inversed so we add an inverse to kron(A, B)
-C = kron(fliplr(vander(x)),fliplr(vander(y)))\F(:);
+Afull = fliplr(vander(x)); % we do it this way because it saves us from
+Bfull = fliplr(vander(y)); % calculating the inverse twice
+C = reshape(kron(Afull(:, 1:m),Bfull(:, 1:n))\F(:), [n,m]); %m columns so we can multiply with x
 end
