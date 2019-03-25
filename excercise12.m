@@ -4,8 +4,8 @@ y = linspace(-1, 1, 31);
 % I guess I can also use a meshgrid but it really isn't
 % necessary since you can just call functionBasic(x, y')
 % and it will perform the space action
-m = 1;
-n = 1;
+m = 7;
+n = 7;
 [X, Y] = meshgrid(x, y);
 f = @(x, y) sin((2.*x-1).^2 + 2.*y);
 F = f(X, Y);
