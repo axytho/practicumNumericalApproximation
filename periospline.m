@@ -4,7 +4,7 @@ function y = periospline(x,f,t)
     n = length(x)-1;
     [d,~] = size(f);
     N = length(t);
-    y = zeros(d,N);
+    y = zeros(N, d);
     f = f';
     
     % Setup matrix & right hand side to determine s''(x_i)
@@ -20,12 +20,12 @@ function y = periospline(x,f,t)
             mainDiag(i-1) = 2.*((x(end) - x(end-1)) + (x(i) - x(i-1))); % 2*(x_n - x_n-1 + x_1 - x_0)
             downDiag(i-1) = x(i) - x(i-1); % x_1 - x_0
             
-            RHS(i-1,:) = ((f(i,:) - f(i-1,:))./(x(i) - x(i-1))) - ((f(i,:) - f(end,:))./(x(end)-x(end-1))); %f_n = f_0, f_n-1 = f(end)
+            RHS(i-1,:) = ((f(i,:) - f(i-1,:))./(x(i) - x(i-1))) - ((f(i-1,:) - f(end,:))./(x(end)-x(end-1))); %f_n = f_0, f_n-1 = f(end)
  
         elseif i == n+1
             % Other diags don't have values here
              mainDiag(i-1) = 2.*(x(i) - x(i-2)); % 2*(x_i-1 - x_i-2 + x_i - x_i-1)
-             RHS(i-1,:) = ((f(1,:) - f(i-1,:))./(x(i) - x(i-1))) - ((f(i-1,:) - f(i-2,:))./(x(i-1)-x(i-2))); %f_n = f_0, f_n-1 = f(end)
+             RHS(i-1,:) = ((f(1,:) - f(end,:))./(x(i) - x(i-1))) - ((f(end,:) - f(end-1,:))./(x(i-1)-x(i-2))); %f_n = f_0, f_n-1 = f(end)
 
         else
             upDiag(i-1) = x(i) - x(i-1); %x_i - x_i-1
@@ -42,11 +42,12 @@ function y = periospline(x,f,t)
     % Add corner coeff to matrix
     Coef(1,end) = x(end) - x(end-1);
     Coef(end,1) = x(end) - x(end-1);
+    RHS = 6.*RHS;
     
     % Solve all at once. This gives us the s''(x_i) for each function set
     % This is a matrix where each row gives us the s''(x_i) for a function set 
     % s''(x_0) to s''(x_n-1), s''(x_n) = s''(x_0)
-    SCoef = (Coef\RHS)
+    SCoef = (Coef\RHS);
     
     % For each p_i(x) determine c_1i & c_2i and put in array
     % We use a matrix where each colomn for one function set => n x d
@@ -60,7 +61,6 @@ function y = periospline(x,f,t)
         end
         C2(i-1, :) = f(i-1, :)./(x(i) - x(i-1)) - (x(i) - x(i-1))./6.0.*SCoef(i-1, :);
     end
-    
     % For eval determine in which interval the point lies, and use the
     % according p_i(x) (valid in interval [x_i-1, x_i])      
     
@@ -69,23 +69,20 @@ function y = periospline(x,f,t)
     for i = 1:N
        x_i = 2; % The top of the interval t(i) is in
        funcNum = 1; % The number of the spline function
-       if(t(i) > x(end)) || (t(i) < x(1))
-           % Figure out how to get it back in de base region (its periodic
-           % after all)
-           continue;
-       else
-           while(x_i < n+1) && (~(t(i) < x(x_i)) && (t(i)>x(x_i-1)))
-               x_i = x_i + 1;
-               funcNum = funcNum + 1;
-           end           
-       end
+       while(x_i < n+1) && (~(t(i) < x(x_i)) && (t(i)>x(x_i-1)))
+           x_i = x_i + 1;
+           funcNum = funcNum + 1;
+       end           
        if x_i == n+1
-           s_i = 2;
+           s_i = 1;
        else
            s_i = x_i;
        end
        
-       y(:, i) = ((t(i) - x(x_i-1)).^3)./(6.0.*(x(x_i) - x(x_i-1))).*SCoef(s_i) - ((t(i) - x(x_i)).^3)./(6.0*(x(x_i) - x(x_i -1))).*SCoef(x_i-1) + C1(funcNum, :)'.*(t(i) - x(x_i-1)) + C2(funcNum, :)'.*(x(x_i) - t(i));
+       y(i, :) = ((t(i) - x(x_i-1)).^3)./(6.0.*(x(x_i) - x(x_i-1))).*SCoef(s_i, :)...
+           - ((t(i) - x(x_i)).^3)./(6.0.*(x(x_i) - x(x_i -1))).*SCoef(x_i-1, :)...
+           + C1(funcNum, :).*(t(i) - x(x_i-1)) + C2(funcNum, :).*(x(x_i) - t(i));
     end    
+   y = y';
 end
 
