@@ -1,7 +1,7 @@
 % Excercise 2.2
 plotval = linspace(-pi, pi, 1000);
 x = linspace(-pi, pi, 20);
-t = linspace(-pi, pi, 200);
+t = linspace(-pi, pi, 5000);
 
 func = @(x) sin(x) + sin(4.*x)./2;
 
@@ -14,7 +14,7 @@ plot(plotval, yplotval);
 hold on;
 plot(x(1:end-1), f, 'ro')
 plot(t, yEst, '-go');
-title('x=20')
+title('Spline Approximation for 20 abscisses')
 xlabel('x');
 ylabel('y')
 hold off;
@@ -28,18 +28,18 @@ title('x=10');
 xlabel('x');
 ylabel('error')
 
-x2 = linspace(-pi,pi ,50);
+x2 = linspace(-pi,pi ,20);
 f2 = func(x2(1:end-1));
 yEst2 = periospline(x2,f2,t);
 figure;
 plot(t, abs(func(t)-yEst2));
-title('x=50');
+title('x=20');
 xlabel('x');
 ylabel('error')
 
-errMax = zeros(1,40);
+errMax = zeros(1,498);
 index = 1;
-for i=5:5:200
+for i=3:500
     x = linspace(-pi,pi ,i);
     f = func(x(1:end-1));
     yEst = periospline(x,f,t);
@@ -47,7 +47,7 @@ for i=5:5:200
     index = index + 1;    
 end
 figure;
-plot(5:5:200, errMax);
-title('MaxErr');
-xlabel('aantal of abscissen');
-ylabel('max fout');
+semilogy(3:500, errMax);
+title('Maximale fout, in functie van het aantal abscissen');
+xlabel('aantal abscissen');
+ylabel('maximale fout');
