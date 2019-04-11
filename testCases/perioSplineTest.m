@@ -43,10 +43,6 @@ classdef perioSplineTest < matlab.unittest.TestCase
             
             Test.verifyEqual(Coef, [36 2  0 16; 2 12 4 0; 0 04 24 8; 16 0 8 48]); 
         end
-        
-        function testRHSMatrix(Test)
-            
-        end
     end
 end
 
