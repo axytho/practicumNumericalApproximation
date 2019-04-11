@@ -1,5 +1,5 @@
 function y = periospline(x,f,t)
-%UNTITLED Summary of this function goes here
+%Periospline Calculates the 
 %   Detailed explanation goes here
     n = length(x)-1;
     [d,~] = size(f);
@@ -28,6 +28,7 @@ function y = periospline(x,f,t)
              RHS(i-1,:) = ((f(1,:) - f(end,:))./(x(i) - x(i-1))) - ((f(end,:) - f(end-1,:))./(x(i-1)-x(i-2))); %f_n = f_0, f_n-1 = f(end)
 
         else
+            % Common case
             upDiag(i-1) = x(i) - x(i-1); %x_i - x_i-1
             mainDiag(i-1) = 2.*(x(i) - x(i-2)); % 2*(x_i-1 - x_i-2 + x_i - x_i-1)
             downDiag(i-1) = x(i) - x(i-1); % x_i - x_i-1
@@ -70,9 +71,9 @@ function y = periospline(x,f,t)
        x_i = 2; % The top of the interval t(i) is in
        funcNum = 1; % The number of the spline function
        while(x_i < n+1) && (~(t(i) < x(x_i)) && (t(i)>x(x_i-1)))
-           % Note: the complexity of this search algortihm is O(n), this
-           % could be improved with more complex search algoritms, to
-           % shorten the runtime of this function when a lot of abscii
+           % Note: the time complexity of this search algortihm is O(n), this
+           % could be improved substantially with more complex search algoritms (eg. binairy search O(log(n))),
+           % to shorten the runtime of this function when a lot of abscisses are given.
            x_i = x_i + 1;
            funcNum = funcNum + 1;
        end           

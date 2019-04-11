@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.3)  5 APR 2019 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.3)  11 APR 2019 18:24
 entering extended mode
 **./ReportNumeriekeBenaderingDennisDebreeJonasBertels.tex
 (ReportNumeriekeBenaderingDennisDebreeJonasBertels.tex
@@ -367,47 +367,363 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \f@ncyO@olf=\skip50
 \f@ncyO@orf=\skip51
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/06/28 v2.15d AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen104
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen105
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks17
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks18
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks19
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count100
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grffile.sty"
+Package: grffile 2016/05/16 v1.17 Extended file name support for graphics (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grffile Info: Option `multidot' is set to `true'.
+Package grffile Info: Option `extendedchars' is set to `false'.
+Package grffile Info: Option `space' is set to `true'.
+Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 486.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\preprint\authblk.sty"
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip55
+\@affilsep=\skip56
+\c@Maxaffil=\count101
+\c@authors=\count102
+\c@affil=\count103
+)
 (ReportNumeriekeBenaderingDennisDebreeJonasBertels.aux)
 \openout1 = `ReportNumeriekeBenaderingDennisDebreeJonasBertels.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 12.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 12.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 12.
- [1
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count104
+\scratchdimen=\dimen115
+\scratchbox=\box28
+\nofMPsegments=\count105
+\nofMParguments=\count106
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count107
+\MPscratchDim=\dimen116
+\MPnumerator=\count108
+\makeMPintoPDFobject=\count109
+\everyMPtoPDFconversion=\toks23
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+[1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/image
+s/Excercise12Sin.JPG, id=14, 1042.49475pt x 529.98pt>
+File: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/
+images/Excercise12Sin.JPG Graphic file (type jpg)
+
+<use D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/i
+mages/Excercise12Sin.JPG>
+Package pdftex.def Info: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBe
+nadering/Practicum/images/Excercise12Sin.JPG used on input line 54.
+(pdftex.def)             Requested size: 344.99466pt x 179.3983pt.
+
+<D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/image
+s/Excercise12Membrane.JPG, id=15, 1073.2095pt x 545.03625pt>
+File: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/
+images/Excercise12Membrane.JPG Graphic file (type jpg)
+
+<use D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/i
+mages/Excercise12Membrane.JPG>
+Package pdftex.def Info: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBe
+nadering/Practicum/images/Excercise12Membrane.JPG used on input line 58.
+(pdftex.def)             Requested size: 345.00613pt x 179.39679pt.
+
+<D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/image
+s/Excercise13.JPG, id=16, 1156.32pt x 558.28575pt>
+File: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/
+images/Excercise13.JPG Graphic file (type jpg)
+
+<use D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/i
+mages/Excercise13.JPG>
+Package pdftex.def Info: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBe
+nadering/Practicum/images/Excercise13.JPG used on input line 66.
+(pdftex.def)             Requested size: 344.99312pt x 179.39621pt.
+
+<D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/image
+s/Excercise14Etna.JPG, id=17, 1144.275pt x 549.252pt>
+File: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/
+images/Excercise14Etna.JPG Graphic file (type jpg)
+
+<use D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/i
+mages/Excercise14Etna.JPG>
+Package pdftex.def Info: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBe
+nadering/Practicum/images/Excercise14Etna.JPG used on input line 72.
+(pdftex.def)             Requested size: 344.99625pt x 179.40154pt.
+
+<D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/image
+s/Excercise14EtnaBenadering.JPG, id=18, 1151.502pt x 555.87675pt>
+File: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/
+images/Excercise14EtnaBenadering.JPG Graphic file (type jpg)
+
+<use D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/i
+mages/Excercise14EtnaBenadering.JPG>
+Package pdftex.def Info: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBe
+nadering/Practicum/images/Excercise14EtnaBenadering.JPG used on input line 76.
+(pdftex.def)             Requested size: 344.99643pt x 179.39398pt.
+
+Overfull \hbox (30.7784pt too wide) in paragraph at lines 69--78
+\OT1/cmr/m/n/10 De veel-term-be-na-de-ring van de Etna werd op prak-tisch de-ze
+lfde ma-nier ge[]mplementeerd
+ []
+
+[2 <D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/im
+ages/Excercise12Sin.JPG>] [3 <D:/Jonas/Google Drive/KULeuven3/NumeriekeModeller
+ingBenadering/Practicum/images/Excercise12Membrane.JPG> <D:/Jonas/Google Drive/
+KULeuven3/NumeriekeModelleringBenadering/Practicum/images/Excercise13.JPG>]
+[4 <D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/im
+ages/Excercise14Etna.JPG> <D:/Jonas/Google Drive/KULeuven3/NumeriekeModellering
+Benadering/Practicum/images/Excercise14EtnaBenadering.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+
+<D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/image
+s/Excercise22SplineApprox.JPG, id=29, 1153.911pt x 552.8655pt>
+File: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/
+images/Excercise22SplineApprox.JPG Graphic file (type jpg)
+
+<use D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/i
+mages/Excercise22SplineApprox.JPG>
+Package pdftex.def Info: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBe
+nadering/Practicum/images/Excercise22SplineApprox.JPG used on input line 103.
+(pdftex.def)             Requested size: 344.99629pt x 179.40076pt.
+ [5]
+<D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/image
+s/Excercise22AbsoluteError10.JPG, id=34, 1156.32pt x 550.4565pt>
+File: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/
+images/Excercise22AbsoluteError10.JPG Graphic file (type jpg)
+
+<use D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/i
+mages/Excercise22AbsoluteError10.JPG>
+Package pdftex.def Info: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBe
+nadering/Practicum/images/Excercise22AbsoluteError10.JPG used on input line 112
+.
+(pdftex.def)             Requested size: 172.48773pt x 119.59732pt.
+
+<D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/image
+s/Excercise22AbsoluteError20.JPG, id=35, 1156.32pt x 558.888pt>
+File: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/
+images/Excercise22AbsoluteError20.JPG Graphic file (type jpg)
+
+<use D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/i
+mages/Excercise22AbsoluteError20.JPG>
+Package pdftex.def Info: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBe
+nadering/Practicum/images/Excercise22AbsoluteError20.JPG used on input line 116
+.
+(pdftex.def)             Requested size: 172.48773pt x 119.59573pt.
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 110--118
+[]$[]$ $[]$ 
+ []
+
+
+<D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/image
+s/Excercise22AbsoluteErrorAbscis.JPG, id=36, 1151.502pt x 557.08125pt>
+File: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/
+images/Excercise22AbsoluteErrorAbscis.JPG Graphic file (type jpg)
+
+<use D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/i
+mages/Excercise22AbsoluteErrorAbscis.JPG>
+Package pdftex.def Info: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBe
+nadering/Practicum/images/Excercise22AbsoluteErrorAbscis.JPG used on input line
+ 123.
+(pdftex.def)             Requested size: 344.99643pt x 179.40019pt.
+
+<D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/image
+s/sidonia.png, id=37, 823.075pt x 547.04375pt>
+File: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/
+images/sidonia.png Graphic file (type png)
+
+<use D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/i
+mages/sidonia.png>
+Package pdftex.def Info: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBe
+nadering/Practicum/images/sidonia.png used on input line 131.
+(pdftex.def)             Requested size: 344.99838pt x 179.39812pt.
+ [6 <D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/i
+mages/Excercise22SplineApprox.JPG> <D:/Jonas/Google Drive/KULeuven3/NumeriekeMo
+delleringBenadering/Practicum/images/Excercise22AbsoluteError10.JPG> <D:/Jonas/
+Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/images/Excercis
+e22AbsoluteError20.JPG>] [7 <D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleri
+ngBenadering/Practicum/images/Excercise22AbsoluteErrorAbscis.JPG> <D:/Jonas/Goo
+gle Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/images/sidonia.png
+ (PNG copy)>]
 (ReportNumeriekeBenaderingDennisDebreeJonasBertels.aux) ) 
 Here is how much of TeX's memory you used:
- 1110 strings out of 493334
- 12359 string characters out of 3139252
- 69977 words of memory out of 3000000
- 4682 multiletter control sequences out of 15000+200000
- 6675 words of font info for 24 fonts, out of 3000000 for 9000
+ 3144 strings out of 493334
+ 44333 string characters out of 3139252
+ 114056 words of memory out of 3000000
+ 6632 multiletter control sequences out of 15000+200000
+ 5771 words of font info for 22 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,6n,43p,320b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,7n,43p,1010b,305s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr17.pfb>
-Output written on ReportNumeriekeBenaderingDennisDebreeJonasBertels.pdf (1 page
-, 30923 bytes).
+eX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on ReportNumeriekeBenaderingDennisDebreeJonasBertels.pdf (7 page
+s, 1208016 bytes).
 PDF statistics:
- 18 PDF objects out of 1000 (max. 8388607)
+ 80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

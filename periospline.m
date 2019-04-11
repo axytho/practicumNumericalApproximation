@@ -1,6 +1,7 @@
 function y = periospline(x,f,t)
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
+%Periospline Calculates the function values of a spline
+%   Calculates the function values of a spline for a given x and f vector
+%   where y = spline(t)
     n = length(x)-1;
     [d,~] = size(f);
     N = length(t);
