@@ -1,5 +1,4 @@
 F = double(imread('etna.jpg'));
-size(F, 2)
 x = linspace(-1, 1,size(F, 2));
 y = linspace(-1, 1,size(F, 1));
 figure(1)

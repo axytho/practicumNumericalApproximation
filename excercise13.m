@@ -1,4 +1,6 @@
 %Excercise 13
+x = linspace(-1, 1, 31);
+y = linspace(-1, 1, 31);
 count = 20;
 f = @(x, y) sin((2.*x-1).^2 + 2.*y);
 [X, Y] = meshgrid(x, y);
@@ -8,9 +10,9 @@ result1 = zeros(count);
 result2 = zeros(count);
 for n=1:count
     m = n;
-    C1 = kkb(x, y, F, m, n);
+    C1 = kkbMemoryEfficient(x, y, F, m, n);
     V1 = polyval2(C1, x, y);
-    C2 = kkb(x, y, F2, m, n);
+    C2 = kkbMemoryEfficient(x, y, F2, m, n);
     V2 = polyval2(C2, x, y);
     result1(n) = sum((V1(:)-F(:)).^2);
     result2(n) = sum((V2(:)-F2(:)).^2);

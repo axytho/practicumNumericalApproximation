@@ -1,7 +1,7 @@
 % Excercise 2.2
 plotval = linspace(-pi, pi, 1000);
 x = linspace(-pi, pi, 20);
-t = linspace(-pi, pi, 5000);
+t = linspace(-pi, pi, 200);
 
 func = @(x) sin(x) + sin(4.*x)./2;
 

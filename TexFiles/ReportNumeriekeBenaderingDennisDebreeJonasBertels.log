@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.3)  11 APR 2019 18:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.3)  12 APR 2019 10:48
 entering extended mode
 **./ReportNumeriekeBenaderingDennisDebreeJonasBertels.tex
 (ReportNumeriekeBenaderingDennisDebreeJonasBertels.tex
@@ -631,7 +631,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
 
 <D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/image
-s/Excercise22SplineApprox.JPG, id=29, 1153.911pt x 552.8655pt>
+s/Excercise22SplineApprox.JPG, id=29, 1153.30875pt x 555.2745pt>
 File: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/
 images/Excercise22SplineApprox.JPG Graphic file (type jpg)
 
@@ -639,7 +639,7 @@ images/Excercise22SplineApprox.JPG Graphic file (type jpg)
 mages/Excercise22SplineApprox.JPG>
 Package pdftex.def Info: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBe
 nadering/Practicum/images/Excercise22SplineApprox.JPG used on input line 103.
-(pdftex.def)             Requested size: 344.99629pt x 179.40076pt.
+(pdftex.def)             Requested size: 344.9922pt x 179.40297pt.
  [5]
 <D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/image
 s/Excercise22AbsoluteError10.JPG, id=34, 1156.32pt x 550.4565pt>
@@ -683,32 +683,61 @@ nadering/Practicum/images/Excercise22AbsoluteErrorAbscis.JPG used on input line
 (pdftex.def)             Requested size: 344.99643pt x 179.40019pt.
 
 <D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/image
-s/sidonia.png, id=37, 823.075pt x 547.04375pt>
+s/Excercise23.JPG, id=37, 1156.32pt x 560.0925pt>
+File: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/
+images/Excercise23.JPG Graphic file (type jpg)
+
+<use D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/i
+mages/Excercise23.JPG>
+Package pdftex.def Info: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBe
+nadering/Practicum/images/Excercise23.JPG used on input line 132.
+(pdftex.def)             Requested size: 172.48773pt x 119.59709pt.
+
+<D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/image
+s/Excercise23Drawing.JPG, id=38, 1156.32pt x 559.49025pt>
+File: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/
+images/Excercise23Drawing.JPG Graphic file (type jpg)
+
+<use D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/i
+mages/Excercise23Drawing.JPG>
+Package pdftex.def Info: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBe
+nadering/Practicum/images/Excercise23Drawing.JPG used on input line 136.
+(pdftex.def)             Requested size: 172.48773pt x 119.59654pt.
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 130--138
+[]$[]$ $[]$ 
+ []
+
+[6 <D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/im
+ages/Excercise22SplineApprox.JPG> <D:/Jonas/Google Drive/KULeuven3/NumeriekeMod
+elleringBenadering/Practicum/images/Excercise22AbsoluteError10.JPG> <D:/Jonas/G
+oogle Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/images/Excercise
+22AbsoluteError20.JPG>]
+<D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/image
+s/sidonia.png, id=42, 823.075pt x 547.04375pt>
 File: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/
 images/sidonia.png Graphic file (type png)
 
 <use D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/i
 mages/sidonia.png>
 Package pdftex.def Info: D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBe
-nadering/Practicum/images/sidonia.png used on input line 131.
+nadering/Practicum/images/sidonia.png used on input line 143.
 (pdftex.def)             Requested size: 344.99838pt x 179.39812pt.
- [6 <D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/i
-mages/Excercise22SplineApprox.JPG> <D:/Jonas/Google Drive/KULeuven3/NumeriekeMo
-delleringBenadering/Practicum/images/Excercise22AbsoluteError10.JPG> <D:/Jonas/
-Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/images/Excercis
-e22AbsoluteError20.JPG>] [7 <D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleri
-ngBenadering/Practicum/images/Excercise22AbsoluteErrorAbscis.JPG> <D:/Jonas/Goo
-gle Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/images/sidonia.png
- (PNG copy)>]
+ [7 <D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Practicum/i
+mages/Excercise22AbsoluteErrorAbscis.JPG> <D:/Jonas/Google Drive/KULeuven3/Nume
+riekeModelleringBenadering/Practicum/images/Excercise23.JPG> <D:/Jonas/Google D
+rive/KULeuven3/NumeriekeModelleringBenadering/Practicum/images/Excercise23Drawi
+ng.JPG>] [8 <D:/Jonas/Google Drive/KULeuven3/NumeriekeModelleringBenadering/Pra
+cticum/images/sidonia.png (PNG copy)>]
 (ReportNumeriekeBenaderingDennisDebreeJonasBertels.aux) ) 
 Here is how much of TeX's memory you used:
- 3144 strings out of 493334
- 44333 string characters out of 3139252
+ 3152 strings out of 493334
+ 45167 string characters out of 3139252
  114056 words of memory out of 3000000
- 6632 multiletter control sequences out of 15000+200000
+ 6640 multiletter control sequences out of 15000+200000
  5771 words of font info for 22 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,7n,43p,1010b,305s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,8n,43p,1010b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
@@ -720,10 +749,10 @@ s/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ReportNumeriekeBenaderingDennisDebreeJonasBertels.pdf (7 page
-s, 1208016 bytes).
+Output written on ReportNumeriekeBenaderingDennisDebreeJonasBertels.pdf (8 page
+s, 1341586 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
+ 85 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
